@@ -1,3 +1,5 @@
+#ifndef DBMANAGER_H
+#define DBMANAGER_H
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -46,4 +48,4 @@ int db_delete_entry(DB* dataBase, int key);
  */
 void* db_get_entry(DB* dataBase, int key);
 
-
+#endif
