@@ -32,7 +32,7 @@ dbNode* dbHead = NULL;
  *  @return - 0 if success, -1 if failure.
  */
 dbNode* create_node(int key, void* val);
-int main() {
-  printf("Hello World!\n");
-  return 0;
+DB* db_init() {
+  printf("dbManager initialized\n");
+  return NULL;
 }
